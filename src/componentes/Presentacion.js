@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 const Presentacion = () => {
     return (
-        <div>
-            
-        </div>
+        <Fragment>
+            <section class='text-center' >
+            <img src={process.env.PUBLIC_URL + 'mia.jpeg'} className='w-75 h-25' alt=""/>
+            </section>
+        </Fragment>
     );
 };
 
