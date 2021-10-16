@@ -8,7 +8,7 @@ const Navegacion = () => {
         <Container>
           <Navbar.Brand href="#home">Paladar Negro</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#">Quienes somos</Nav.Link>
+            <Nav.Link href="#quienesSomos">Quienes somos</Nav.Link>
             <Nav.Link href="#features">Productos</Nav.Link>
             <Nav.Link href="#pricing">Contacto</Nav.Link>
           </Nav>
