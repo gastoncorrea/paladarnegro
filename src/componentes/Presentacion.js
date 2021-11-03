@@ -11,7 +11,9 @@ const Presentacion = () => {
         />
       </section>
       <section className="text-center container ">
-        <h1 className="display-1 my-4" id='quienesSomos'>¿Quienes somos?</h1>
+        <h1 className="display-1 my-4" id="quienesSomos">
+          ¿Quienes somos?
+        </h1>
         <p>
           Somos una familia de cuatro socios que entendiendo que todo está
           potenciado por la tecnologia y la comunicación buscamos llevarles a
