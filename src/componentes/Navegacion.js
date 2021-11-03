@@ -34,11 +34,11 @@ const Navegacion = () => {
               <NavLink exact={true} to="#" className="nav-link text-light">
                 Login
               </NavLink>
-              <div className='d-flex ms-5'>
+              <div className='d-flex mx-auto'>
                 <NavLink exact={true} to="#" className="nav-link text-light">
                   <FontAwesomeIcon icon={faFacebookSquare} />
                 </NavLink>
-                <NavLink exact={true} to="#" className="nav-link text-light">
+                <NavLink exact={true} to="#" className="nav-link text-light ms-2">
                   <FontAwesomeIcon icon={faInstagram} />
                 </NavLink>
               </div>
