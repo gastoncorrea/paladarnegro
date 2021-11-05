@@ -10,9 +10,9 @@ import {
 const Navegacion = () => {
   return (
     <Fragment>
-      <Navbar bg="dark" variant="dark" expand="lg" className="text-center">
+      <Navbar  variant="dark" expand="lg" className="text-center" className='color-negro'>
         <Container>
-          <Navbar.Brand href="/">Paladar Negro</Navbar.Brand>
+          <Navbar.Brand href="/"><img src={process.env.PUBLIC_URL + "img/circular_logo.png"} alt="logo-paladar-negro" className='w-100' /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto ">
@@ -34,7 +34,7 @@ const Navegacion = () => {
               <NavLink exact={true} to="#" className="nav-link text-light">
                 Login
               </NavLink>
-              <div className='d-flex mx-auto'>
+              <div className='d-flex'>
                 <NavLink exact={true} to="#" className="nav-link text-light">
                   <FontAwesomeIcon icon={faFacebookSquare} />
                 </NavLink>

@@ -4,12 +4,12 @@ import { Carousel, Card, Button, Badge } from "react-bootstrap";
 const Presentacion = () => {
   return (
     <Fragment>
-      <section class="text-center my-5">
+      <section class="text-center my-5 mt-2">
         <Carousel>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={process.env.PUBLIC_URL + "tomahawk_y_tbone.png"}
+              src={process.env.PUBLIC_URL + "img/tomahawk_y_tbone.png"}
               alt="First slide"
             />
             <Carousel.Caption></Carousel.Caption>
@@ -17,7 +17,7 @@ const Presentacion = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={process.env.PUBLIC_URL + "entraña.png"}
+              src={process.env.PUBLIC_URL + "img/entraña.png"}
               alt="Second slide"
             />
 
@@ -26,7 +26,7 @@ const Presentacion = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={process.env.PUBLIC_URL + "osobuco.png"}
+              src={process.env.PUBLIC_URL + "img/osobuco.png"}
               alt="Third slide"
             />
             <Carousel.Caption>
@@ -41,7 +41,7 @@ const Presentacion = () => {
           <Card>
             <Card.Img
               variant="top"
-              src={process.env.PUBLIC_URL + "colita_de_cuadril_canva.png"}
+              src={process.env.PUBLIC_URL + "img/colita_de_cuadril_canva.png"}
             />
             <Card.Body>
               <Card.Title>Colita de Cuadril</Card.Title>
@@ -61,7 +61,7 @@ const Presentacion = () => {
           <Card>
             <Card.Img
               variant="top"
-              src={process.env.PUBLIC_URL + "colita_de_cuadril_canva.png"}
+              src={process.env.PUBLIC_URL + "img/colita_de_cuadril_canva.png"}
             />
             <Card.Body>
               <Card.Title>Colita de Cuadril</Card.Title>
@@ -74,7 +74,7 @@ const Presentacion = () => {
           <Card>
             <Card.Img
               variant="top"
-              src={process.env.PUBLIC_URL + "colita_de_cuadril_canva.png"}
+              src={process.env.PUBLIC_URL + "img/colita_de_cuadril_canva.png"}
             />
             <Card.Body>
               <Card.Title>Colita de Cuadril</Card.Title>
